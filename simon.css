@@ -1,0 +1,113 @@
+ body{  /* main body background setting */
+    background-color: #462e39;
+    font-family: Orbitron;
+    font-size: 20px;
+    color: #ffffff;
+}
+h1  { /* The game title format */
+    font-family: Orbitron;
+    font-size: 35px;
+    text-align: center;
+    color: #f3f0f0;
+}
+#circle{ /* The main black circle format */
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #131111;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+    
+}
+#start{ /* The start button format */
+    width: 100px;
+    height: 30px;
+    background-color: #b3b3b3;
+    font-family: 'Orbitron';
+    font-size: 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border-radius: 5px;
+    transform: translate(-50%, -10%);
+    border: #ffffff 1px solid;
+}
+#start:active   { /* show the activation of the start button */
+    background: #e60fa9;
+    color: #000000;
+}
+#turn{ /* The turn counter format */
+    width: 35px;
+    height: 28px;
+    background-color: #b3b3b3;
+    position: fixed;
+   
+    left: 50%;
+    top: 50%;
+    transform: translate(150%, -10%);
+    border-radius: 5px;
+    border: #ffffff 1px solid;
+}
+#s2{ /* The top score counter format */
+    width: 35px;
+    height: 28px;
+    background-color: #b3b3b3;
+    position: fixed;
+    font-family: Orbitron;
+    left: 50%;
+    top: 50%;
+    border-radius: 5px;
+    transform: translate(-250%, -10%);
+    border: #ffffff 1px solid;
+}
+#text2{ /* The small activation circle light format */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #a30101;
+    font-family: 'Orbitron';
+    font-size: 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border-radius: 5px;
+    transform: translate(-50%, 400%);
+}
+#red{ /* The red button format */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: fixed;
+    background: #8d0000;
+    transform: translate(130%, -50%);
+    border: #000000 10px solid;
+}
+#green{ /* The green button format */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: fixed;
+    background: #008700;
+    transform: translate(-30%, -50%);
+    border: #000000 10px solid;
+}
+#blue{ /* The blue button format */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: fixed;
+    background: #0000ac;
+    transform: translate(130%, 150%);
+    border: #000000 10px solid;
+}
+#yellow{ /* The yellow button format */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: fixed;
+    background: #9a9a01;
+    transform: translate(-30%, 150%);
+    border: #000000 10px solid;
+}
